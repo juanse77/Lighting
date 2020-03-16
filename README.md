@@ -10,6 +10,7 @@
 	<li>Rotar la cámara arriba/abajo: flechas arriba/abajo.</li>
 	<li>Hacer zoom: ampliar tecla a, alejar tecla s.</li>
 	<li>Modificar la luz de ambiente: mover ratón derecha/izquierda.</li>
+	<li>Modificar la emisión de luz: mover ratón arriba/abajo.</li>
 	<li>Mostrar/Ocultar menú: tecla m.</li>
 	<li>Pausar: tecla espacio.</li>
 	<li>Salir: Escape.</li>
