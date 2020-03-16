@@ -1,6 +1,6 @@
 <h1>Iluminación 3D:</h1>
 
-<p>Este práctica consitió en la composición de una escena con objetos tridimensionales y que utilizase texturas, luces y movimientos de cámara. La escena escogida consta de un sistema Tierra Luna en el interior de un prisma horizontal sin tapas. El prisma está revestido de una textura de muro de ladrillos. Para la cámara se ha utilizado una librería disponible para processig llamada Obsessive Camera Direction (OCD). Se ha utilizado esta librería debido a lo sencillo que resulta el control de su cámara.</p>
+<p>Este práctica consitió en la composición de una escena con objetos tridimensionales y que utilizase texturas, luces y movimientos de cámara. La escena escogida consta de un sistema Tierra-Luna en el interior de un prisma horizontal sin tapas. El prisma está revestido de una textura de muro de ladrillos. Para la cámara se ha utilizado una librería disponible para processig llamada Obsessive Camera Direction (OCD). Se ha utilizado esta librería debido a lo sencillo que resulta el control de su cámara.</p>
 
 
 <h2>Controles:</h2>
@@ -20,7 +20,7 @@
 
 <p>En el control de la cámara se han hecho uso tres métodos: arc, circle, y zoom. El método arc rota la cámara sobre el eje X a través de una circunferencia centrada en el punto de interés que en este caso será el centro del planeta Tierra. El método circle hace lo mismo pero rota sobre el eje Y. El método zoom acerca o aleja la vista de la cámara sin desplazarla de su lugar, el avance del zoom se detiene al encontrar un objeto.</p>
 
-<p>Al iniciarse la aplicación se presenta en el centro de la pantalla un menú con la descripción de los controles disponibles. El acceso al menú se puede hacer en cualquier momento pulsando la tecla m. Al presentarse el menú de la aplicación se recoloca la cámara a su posición original haciendo uso del método jump, del mismo modo el zoom que se haya acumulado durante la actividad de usuario se deshace para que la vista del menú no quede desproporcionada.</p> 
+<p>Al iniciarse la aplicación se presenta en el centro de la pantalla un menú con la descripción de los controles disponibles. El acceso al menú se puede hacer en cualquier momento pulsando la tecla m. En las sucesivas llamadas al menú, la cámara es recolocada en su posición original haciendo uso del método jump, del mismo modo el zoom que se haya acumulado durante la actividad de usuario se deshace para que la vista del menú no quede desproporcionada.</p> 
 
 <p>Los métodos utilizados para controlar la iluminación fueron: directionalLight, ambientLight, spotLight, emissive, lightSpecular y shininess. La luz principal de la escena se consiguió con la utilización del método directionalLight. La dirección de la luz que se escogió fue la (-1, -0.2, 0.2) que podría corresponderse con una iluminación de invierno en el emisferio norte. El color de esta luz se escogió que fuera completamente blanca.</p>
 
@@ -42,7 +42,7 @@ if(val_ambiente_rojo < 0){
 ambientLight((int)val_ambiente_rojo, 0 , (int)val_ambiente_azul);
 ```
 
-<p>Otro efecto interesante que se ha logrado ha sido la creación de un punto de luz amarillento que recorre la cara iluminada del planeta tierra al verse ensombrecido por el paso de la Luna. El efecto se consiguió utilizando el método spotLight con un punto de origen en la luna y un vector de proyección en la misma direción de la emisión de la luz blanca principal.</p>
+<p>Otro efecto interesante que se ha logrado ha sido la creación de un punto de luz amarillento que recorre la cara iluminada del planeta tierra al verse ensombrecido por el paso de la Luna. El efecto se consiguió utilizando el método spotLight con un punto de origen en la luna y un vector de proyección en la misma dirección de la emisión de la luz blanca principal.</p>
 
 ```java
 Punto pos_luna = luna.getPosicionRelativa();
@@ -75,7 +75,7 @@ emissive(0, val_emissive, 0);
 
 - Modesto Fernando Castrillón Santana, José Daniel Hernández Sosa. [Creando Interfaces de Usuario. Guion de Prácticas](https://cv-aep.ulpgc.es/cv/ulpgctp20/pluginfile.php/126724/mod_resource/content/25/CIU_Pr_cticas.pdf)
 - Processing Foundation. [Processing Reference.](https://processing.org/reference/)
-- [Obsessive Camera Direction (OCD)](http://gdsstudios.com/processing/libraries/ocd/)
-- [Textura de la Tierra](https://canelonesconcodigo.wordpress.com/2014/11/09/tierra-con-three-js/)
-- [Textura de la Luna](https://www.canstockphoto.es/superficie-seamless-textura-luna-35589436.html)
-- [Textura del muro](http://bgfons.com/download/3452)
+- [Obsessive Camera Direction (OCD)](http://gdsstudios.com/processing/libraries/ocd/).
+- [Textura de la Tierra](https://canelonesconcodigo.wordpress.com/2014/11/09/tierra-con-three-js/).
+- [Textura de la Luna](https://www.canstockphoto.es/superficie-seamless-textura-luna-35589436.html).
+- [Textura del muro](http://bgfons.com/download/3452).
