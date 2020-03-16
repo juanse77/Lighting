@@ -1,23 +1,19 @@
 <h1>Iluminación 3D:</h1>
 
-<p>Este práctica consitió en la composición de una escena con objetos tridimensionales y que utilizase texturas, luces y movimientos de cámara.</p>
-
-<p>La escena escogida consta de un sistema Tierra Luna en el interior de un prisma horizontal sin tapas. El prisma está revestido de una textura de muro de ladrillos.</p>
-
-<p>Para la cámara se ha utilizado una librería disponible para processig llamada Obsessive Camera Direction (OCD). Se ha utilizado esta librería debido a lo sencillo que resulta el control de su cámara. </p>
+<p>Este práctica consitió en la composición de una escena con objetos tridimensionales y que utilizase texturas, luces y movimientos de cámara. La escena escogida consta de un sistema Tierra Luna en el interior de un prisma horizontal sin tapas. El prisma está revestido de una textura de muro de ladrillos. Para la cámara se ha utilizado una librería disponible para processig llamada Obsessive Camera Direction (OCD). Se ha utilizado esta librería debido a lo sencillo que resulta el control de su cámara.</p>
 
 
 <h2>Controles:</h2>
 
-<li>
-	<ul>Rotar la cámara derecha/izquierda: flechas derecha/izquerda.</ul>
-	<ul>Rotar la cámara arriba/abajo: flechas arriba/abajo.</ul>
-	<ul>Hacer zoom: ampliar tecla a, alejar tecla s.</ul>
-	<ul>Modificar la luz de ambiente: mover ratón derecha/izquierda.</ul>
-	<ul>Mostrar/Ocultar menú: tecla m.</ul>
-	<ul>Pausar: tecla espacio.</ul>
-	<ul>Salir: Escape.</ul>
-</li>
+<ul>
+	<li>Rotar la cámara derecha/izquierda: flechas derecha/izquerda.</li>
+	<li>Rotar la cámara arriba/abajo: flechas arriba/abajo.</li>
+	<li>Hacer zoom: ampliar tecla a, alejar tecla s.</li>
+	<li>Modificar la luz de ambiente: mover ratón derecha/izquierda.</li>
+	<li>Mostrar/Ocultar menú: tecla m.</li>
+	<li>Pausar: tecla espacio.</li>
+	<li>Salir: Escape.</li>
+</ul>
 
 <h2>Detalles de implementación:</h2>
 
